@@ -141,90 +141,6 @@ int reduce_colour(const char* infilename, const char* outfilename,int level)
     return 0;
 }
 
-int natrual_posterize(const char* infilename, const char* outfilename)
-{
-    //Loads in the image:
-    pdib image_0 = dib_Load(infilename);
-
-    int depth = dib_Bitcount(image_0);
-    int width  = dib_Width(image_0);
-    int height = dib_Height(image_0);
-    int storage_width = dib_StorageWidth(image_0);
-    unsigned char* buffer = dib_Image(image_0);
-    int byte_count = depth/8;
-
-    //Natural Colour Palette
-    int colourP[] = {255,201,161};
-    int colourB[] = {78,52,41};
-    int colourW[] = {236,71,91};
-    int colourDB[] = {92,36,27};
-    int colourG[] = {219,125,101};
-
-    for (int y=0; y < height; y++)
-    {
-        int scanline = y * storage_width;
-
-        for (int x=0; x < width; x++)
-        {
-            int offset = x * byte_count;
-
-            int redValue = buffer[scanline+offset+0];
-            int greenValue = buffer[scanline+offset+1];
-            int blueValue = buffer[scanline+offset+2];
-
-            //Euclidean Distance
-            float redDistance = sqrt(pow((redValue-colourP[0]),2)+pow((greenValue-colourP[1]),2)+pow((blueValue-colourP[2]),2));
-            float yellowDistance = sqrt(pow((redValue-colourB[0]),2)+pow((greenValue-colourB[1]),2)+pow((blueValue-colourB[2]),2));
-            float blueDistance = sqrt(pow((redValue-colourW[0]),2)+pow((greenValue-colourW[1]),2)+pow((blueValue-colourW[2]),2));
-            float whiteDistance = sqrt(pow((redValue-colourDB[0]),2)+pow((greenValue-colourDB[1]),2)+pow((blueValue-colourDB[2]),2));
-            float blackDistance = sqrt(pow((redValue-colourG[0]),2)+pow((greenValue-colourG[1]),2)+pow((blueValue-colourG[2]),2));
-
-            float minDistance = fmin(redDistance, fmin(yellowDistance, fmin(blueDistance, fmin(whiteDistance, blackDistance))));
-
-            if (minDistance==redDistance)
-            {
-                buffer[scanline+offset+0] = colourP[0];
-                buffer[scanline+offset+1] = colourP[1];
-                buffer[scanline+offset+2] = colourP[2];
-            }
-
-            else if (minDistance==yellowDistance)
-            {
-                buffer[scanline+offset+0] = colourB[0];
-                buffer[scanline+offset+1] = colourB[1];
-                buffer[scanline+offset+2] = colourB[2];
-            }
-
-            else if (minDistance==blueDistance)
-            {
-                buffer[scanline+offset+0] = colourW[0];
-                buffer[scanline+offset+1] = colourW[1];
-                buffer[scanline+offset+2] = colourW[2];
-            }
-
-            else if (minDistance==whiteDistance)
-            {
-                buffer[scanline+offset+0] = colourDB[0];
-                buffer[scanline+offset+1] = colourDB[1];
-                buffer[scanline+offset+2] = colourDB[2];
-            }
-
-            else if (minDistance==blackDistance)
-            {
-                buffer[scanline+offset+0] = colourG[0];
-                buffer[scanline+offset+1] = colourG[1];
-                buffer[scanline+offset+2] = colourG[2];
-            }
-        }
-    }
-
-    //Update Image:
-    dib_Write(image_0, outfilename);
-    //Clean up:
-    dib_Destroy(image_0);
-    return 0;
-}
-
 int posterize_filter(const char* infilename, const char* outfilename)
 {
     //Loads in the image:
@@ -242,7 +158,6 @@ int posterize_filter(const char* infilename, const char* outfilename)
     int colourY[] = {247,197,72};
     int colourB[] = {24,79,133};
     int colourW[] = {255,255,255};
-    //int colourBl[] = {54,54,54};
 
     for (int y=0; y < height; y++)
     {
@@ -261,7 +176,6 @@ int posterize_filter(const char* infilename, const char* outfilename)
             float yellowDistance = sqrDistance(redValue, greenValue, blueValue, colourY[0], colourY[1], colourY[2]);
             float blueDistance = sqrDistance(redValue, greenValue, blueValue, colourB[0], colourB[1], colourB[2]);
             float whiteDistance = sqrDistance(redValue, greenValue, blueValue, colourW[0], colourW[1], colourW[2]);
-            //float blackDistance = sqrDistance(redValue, greenValue, blueValue, colourBl[0], colourBl[1], colourBl[2]);
 
             float minDistance = fmin(redDistance, fmin(yellowDistance, fmin(blueDistance, whiteDistance)));
 
@@ -441,13 +355,11 @@ int main()
 
     blur_filter("test_face.bmp", "Roy_Lichtenstein_Image.bmp", 1);
     reduce_colour("Roy_Lichtenstein_Image.bmp", "Roy_Lichtenstein_Image.bmp", 20);
-    natrual_posterize("Roy_Lichtenstein_Image.bmp", "Roy_Lichtenstein_Image.bmp");
     posterize_filter("Roy_Lichtenstein_Image.bmp", "Roy_Lichtenstein_Image.bmp");
 
     blur_filter("test_face.bmp", "Roy_Lichtenstein_Image_Edge.bmp", 3);
     edge_filter("Roy_Lichtenstein_Image_Edge.bmp", "Roy_Lichtenstein_Image_Edge.bmp", 10);
     simplify_filter("Roy_Lichtenstein_Image_Edge.bmp", "Roy_Lichtenstein_Image.bmp", "Roy_Lichtenstein_Image.bmp", 100);
-
 
     //Clean up
     dib_Destroy(image_0);

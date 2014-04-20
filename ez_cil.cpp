@@ -342,7 +342,6 @@ int simplify_filter(const char* infilename, const char* overlay, const char* out
 
 
     dib_Write(image_1, outfilename);
-
     // clean up
     dib_Destroy(image_1);
 

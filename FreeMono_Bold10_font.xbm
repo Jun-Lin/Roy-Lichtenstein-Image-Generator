@@ -1,0 +1,495 @@
+#define FreeMono_Bold10_0fs_width 7
+#define FreeMono_Bold10_0fs_height 11
+static unsigned char FreeMono_Bold10_0fs_bits[] = {
+  0x00, 0x06, 0x0B, 0x09, 0x09, 0x09, 0x0D, 0x06, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_1fs_width 8
+#define FreeMono_Bold10_1fs_height 11
+static unsigned char FreeMono_Bold10_1fs_bits[] = {
+  0x00, 0x06, 0x07, 0x04, 0x04, 0x04, 0x04, 0x0F, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_2fs_width 7
+#define FreeMono_Bold10_2fs_height 11
+static unsigned char FreeMono_Bold10_2fs_bits[] = {
+  0x00, 0x0E, 0x0B, 0x08, 0x0C, 0x02, 0x0B, 0x0F, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_3fs_width 8
+#define FreeMono_Bold10_3fs_height 11
+static unsigned char FreeMono_Bold10_3fs_bits[] = {
+  0x00, 0x0E, 0x12, 0x10, 0x0C, 0x10, 0x18, 0x0E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_4fs_width 7
+#define FreeMono_Bold10_4fs_height 11
+static unsigned char FreeMono_Bold10_4fs_bits[] = {
+  0x00, 0x0C, 0x0C, 0x0A, 0x09, 0x0F, 0x08, 0x0E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_5fs_width 8
+#define FreeMono_Bold10_5fs_height 11
+static unsigned char FreeMono_Bold10_5fs_bits[] = {
+  0x00, 0x1E, 0x02, 0x0E, 0x12, 0x10, 0x18, 0x0E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_6fs_width 7
+#define FreeMono_Bold10_6fs_height 11
+static unsigned char FreeMono_Bold10_6fs_bits[] = {
+  0x00, 0x1C, 0x06, 0x0E, 0x16, 0x13, 0x1A, 0x0E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_7fs_width 7
+#define FreeMono_Bold10_7fs_height 11
+static unsigned char FreeMono_Bold10_7fs_bits[] = {
+  0x00, 0x0F, 0x09, 0x08, 0x04, 0x04, 0x04, 0x02, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_8fs_width 7
+#define FreeMono_Bold10_8fs_height 11
+static unsigned char FreeMono_Bold10_8fs_bits[] = {
+  0x00, 0x06, 0x0D, 0x09, 0x06, 0x0D, 0x09, 0x07, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_9fs_width 7
+#define FreeMono_Bold10_9fs_height 11
+static unsigned char FreeMono_Bold10_9fs_bits[] = {
+  0x00, 0x0E, 0x0B, 0x09, 0x1E, 0x08, 0x0C, 0x07, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_afs_width 8
+#define FreeMono_Bold10_afs_height 11
+static unsigned char FreeMono_Bold10_afs_bits[] = {
+   0x00, 0x00, 0x00, 0x0f, 0x19, 0x09, 0x09, 0x1f, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Afs_width 9
+#define FreeMono_Bold10_Afs_height 11
+static unsigned char FreeMono_Bold10_Afs_bits[] = {
+   0x00, 0x00, 0x0c, 0x00, 0x1e, 0x00, 0x12, 0x00, 0x12, 0x00, 0x1e, 0x00,
+   0x12, 0x00, 0x33, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_123fs_width 7
+#define FreeMono_Bold10_ascii_123fs_height 11
+static unsigned char FreeMono_Bold10_ascii_123fs_bits[] = {
+  0x00, 0x0C, 0x04, 0x04, 0x04, 0x06, 0x04, 0x04, 0x0C, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_124fs_width 6
+#define FreeMono_Bold10_ascii_124fs_height 11
+static unsigned char FreeMono_Bold10_ascii_124fs_bits[] = {
+  0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x00, };
+#define FreeMono_Bold10_ascii_125fs_width 6
+#define FreeMono_Bold10_ascii_125fs_height 11
+static unsigned char FreeMono_Bold10_ascii_125fs_bits[] = {
+  0x00, 0x06, 0x04, 0x04, 0x04, 0x0C, 0x04, 0x04, 0x06, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_126fs_width 8
+#define FreeMono_Bold10_ascii_126fs_height 11
+static unsigned char FreeMono_Bold10_ascii_126fs_bits[] = {
+   0x00, 0x00, 0x00, 0x00, 0x17, 0x1d, 0x00, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_33fs_width 6
+#define FreeMono_Bold10_ascii_33fs_height 11
+static unsigned char FreeMono_Bold10_ascii_33fs_bits[] = {
+   0x00, 0x02, 0x02, 0x02, 0x02, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_34fs_width 7
+#define FreeMono_Bold10_ascii_34fs_height 11
+static unsigned char FreeMono_Bold10_ascii_34fs_bits[] = {
+   0x00, 0x00, 0x1b, 0x09, 0x09, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_35fs_width 8
+#define FreeMono_Bold10_ascii_35fs_height 11
+static unsigned char FreeMono_Bold10_ascii_35fs_bits[] = {
+   0x14, 0x14, 0x14, 0x3e, 0x14, 0x3e, 0x14, 0x14, 0x14, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_36fs_width 7
+#define FreeMono_Bold10_ascii_36fs_height 11
+static unsigned char FreeMono_Bold10_ascii_36fs_bits[] = {
+  0x00, 0x02, 0x0F, 0x09, 0x07, 0x0C, 0x09, 0x07, 0x02, 0x02, 0x00, };
+#define FreeMono_Bold10_ascii_37fs_width 7
+#define FreeMono_Bold10_ascii_37fs_height 11
+static unsigned char FreeMono_Bold10_ascii_37fs_bits[] = {
+  0x00, 0x0E, 0x0A, 0x1E, 0x0C, 0x1E, 0x14, 0x1C, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_38fs_width 7
+#define FreeMono_Bold10_ascii_38fs_height 11
+static unsigned char FreeMono_Bold10_ascii_38fs_bits[] = {
+   0x00, 0x07, 0x05, 0x07, 0x02, 0x0f, 0x09, 0x0f, 0x16, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_39fs_width 6
+#define FreeMono_Bold10_ascii_39fs_height 11
+static unsigned char FreeMono_Bold10_ascii_39fs_bits[] = {
+  0x00, 0x00, 0x03, 0x03, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_40fs_width 5
+#define FreeMono_Bold10_ascii_40fs_height 11
+static unsigned char FreeMono_Bold10_ascii_40fs_bits[] = {
+  0x00, 0x02, 0x02, 0x01, 0x01, 0x01, 0x01, 0x03, 0x02, 0x02, 0x00, };
+#define FreeMono_Bold10_ascii_41fs_width 7
+#define FreeMono_Bold10_ascii_41fs_height 11
+static unsigned char FreeMono_Bold10_ascii_41fs_bits[] = {
+  0x00, 0x02, 0x06, 0x04, 0x04, 0x04, 0x04, 0x06, 0x02, 0x02, 0x00, };
+#define FreeMono_Bold10_ascii_42fs_width 8
+#define FreeMono_Bold10_ascii_42fs_height 11
+static unsigned char FreeMono_Bold10_ascii_42fs_bits[] = {
+   0x00, 0x04, 0x15, 0x0e, 0x1f, 0x15, 0x04, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_ascii_43fs_width 8
+#define FreeMono_Bold10_ascii_43fs_height 11
+static unsigned char FreeMono_Bold10_ascii_43fs_bits[] = {
+  0x00, 0x00, 0x08, 0x08, 0x3E, 0x08, 0x08, 0x08, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_44fs_width 7
+#define FreeMono_Bold10_ascii_44fs_height 11
+static unsigned char FreeMono_Bold10_ascii_44fs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x02, 0x01, 0x00, };
+#define FreeMono_Bold10_ascii_45fs_width 8
+#define FreeMono_Bold10_ascii_45fs_height 11
+static unsigned char FreeMono_Bold10_ascii_45fs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_46fs_width 5
+#define FreeMono_Bold10_ascii_46fs_height 11
+static unsigned char FreeMono_Bold10_ascii_46fs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_47fs_width 7
+#define FreeMono_Bold10_ascii_47fs_height 11
+static unsigned char FreeMono_Bold10_ascii_47fs_bits[] = {
+  0x10, 0x10, 0x18, 0x08, 0x0C, 0x04, 0x04, 0x02, 0x02, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_58fs_width 5
+#define FreeMono_Bold10_ascii_58fs_height 11
+static unsigned char FreeMono_Bold10_ascii_58fs_bits[] = {
+  0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_59fs_width 6
+#define FreeMono_Bold10_ascii_59fs_height 11
+static unsigned char FreeMono_Bold10_ascii_59fs_bits[] = {
+  0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x02, 0x02, 0x01, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_60fs_width 8
+#define FreeMono_Bold10_ascii_60fs_height 11
+static unsigned char FreeMono_Bold10_ascii_60fs_bits[] = {
+  0x00, 0x00, 0x10, 0x1C, 0x06, 0x0C, 0x10, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_61fs_width 7
+#define FreeMono_Bold10_ascii_61fs_height 11
+static unsigned char FreeMono_Bold10_ascii_61fs_bits[] = {
+  0x00, 0x00, 0x00, 0x3E, 0x00, 0x3E, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_62fs_width 7
+#define FreeMono_Bold10_ascii_62fs_height 11
+static unsigned char FreeMono_Bold10_ascii_62fs_bits[] = {
+  0x00, 0x00, 0x02, 0x0E, 0x18, 0x0E, 0x02, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_63fs_width 7
+#define FreeMono_Bold10_ascii_63fs_height 11
+static unsigned char FreeMono_Bold10_ascii_63fs_bits[] = {
+  0x00, 0x00, 0x07, 0x0D, 0x0C, 0x06, 0x00, 0x02, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_64fs_width 7
+#define FreeMono_Bold10_ascii_64fs_height 11
+static unsigned char FreeMono_Bold10_ascii_64fs_bits[] = {
+  0x00, 0x0E, 0x0B, 0x09, 0x0F, 0x0B, 0x0F, 0x01, 0x03, 0x0E, 0x00, };
+#define FreeMono_Bold10_ascii_91fs_width 6
+#define FreeMono_Bold10_ascii_91fs_height 11
+static unsigned char FreeMono_Bold10_ascii_91fs_bits[] = {
+  0x00, 0x03, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x03, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_92fs_width 7
+#define FreeMono_Bold10_ascii_92fs_height 11
+static unsigned char FreeMono_Bold10_ascii_92fs_bits[] = {
+   0x03, 0x03, 0x06, 0x06, 0x0c, 0x0c, 0x18, 0x18, 0x30, 0x30, 0x00 };
+#define FreeMono_Bold10_ascii_93fs_width 7
+#define FreeMono_Bold10_ascii_93fs_height 11
+static unsigned char FreeMono_Bold10_ascii_93fs_bits[] = {
+  0x00, 0x06, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x06, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_94fs_width 7
+#define FreeMono_Bold10_ascii_94fs_height 11
+static unsigned char FreeMono_Bold10_ascii_94fs_bits[] = {
+  0x00, 0x0C, 0x1E, 0x12, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ascii_95fs_width 8
+#define FreeMono_Bold10_ascii_95fs_height 11
+static unsigned char FreeMono_Bold10_ascii_95fs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3F, 0x00, };
+#define FreeMono_Bold10_ascii_96fs_width 6
+#define FreeMono_Bold10_ascii_96fs_height 11
+static unsigned char FreeMono_Bold10_ascii_96fs_bits[] = {
+  0x02, 0x06, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_bfs_width 9
+#define FreeMono_Bold10_bfs_height 11
+static unsigned char FreeMono_Bold10_bfs_bits[] = {
+  0x00, 0x00, 0x03, 0x00, 0x02, 0x00, 0x1E, 0x00, 0x36, 0x00, 0x22, 0x00, 
+  0x36, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Bfs_width 9
+#define FreeMono_Bold10_Bfs_height 11
+static unsigned char FreeMono_Bold10_Bfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x12, 0x00, 0x1E, 0x00, 0x32, 0x00, 
+  0x22, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_cfs_width 8
+#define FreeMono_Bold10_cfs_height 11
+static unsigned char FreeMono_Bold10_cfs_bits[] = {
+   0x00, 0x00, 0x00, 0x1f, 0x11, 0x01, 0x11, 0x1f, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Cfs_width 8
+#define FreeMono_Bold10_Cfs_height 11
+static unsigned char FreeMono_Bold10_Cfs_bits[] = {
+   0x00, 0x00, 0x1e, 0x33, 0x21, 0x01, 0x33, 0x1e, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_dfs_width 8
+#define FreeMono_Bold10_dfs_height 11
+static unsigned char FreeMono_Bold10_dfs_bits[] = {
+   0x00, 0x18, 0x10, 0x1e, 0x1b, 0x11, 0x1b, 0x3e, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Dfs_width 9
+#define FreeMono_Bold10_Dfs_height 11
+static unsigned char FreeMono_Bold10_Dfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x32, 0x00, 0x22, 0x00, 0x22, 0x00, 
+  0x32, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_efs_width 8
+#define FreeMono_Bold10_efs_height 11
+static unsigned char FreeMono_Bold10_efs_bits[] = {
+   0x00, 0x00, 0x00, 0x1f, 0x13, 0x1f, 0x03, 0x1f, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Efs_width 9
+#define FreeMono_Bold10_Efs_height 11
+static unsigned char FreeMono_Bold10_Efs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x1A, 0x00, 0x0E, 0x00, 0x0A, 0x00, 
+  0x22, 0x00, 0x3F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ffs_width 7
+#define FreeMono_Bold10_ffs_height 11
+static unsigned char FreeMono_Bold10_ffs_bits[] = {
+  0x00, 0x3C, 0x04, 0x1E, 0x04, 0x04, 0x04, 0x1E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Ffs_width 8
+#define FreeMono_Bold10_Ffs_height 11
+static unsigned char FreeMono_Bold10_Ffs_bits[] = {
+   0x00, 0x00, 0x1f, 0x12, 0x06, 0x02, 0x02, 0x07, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_gfs_width 8
+#define FreeMono_Bold10_gfs_height 11
+static unsigned char FreeMono_Bold10_gfs_bits[] = {
+  0x00, 0x00, 0x00, 0x1E, 0x1B, 0x11, 0x19, 0x1E, 0x10, 0x0E, 0x00, };
+#define FreeMono_Bold10_Gfs_width 8
+#define FreeMono_Bold10_Gfs_height 11
+static unsigned char FreeMono_Bold10_Gfs_bits[] = {
+  0x00, 0x00, 0x1E, 0x13, 0x01, 0x39, 0x1B, 0x1E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_hfs_width 8
+#define FreeMono_Bold10_hfs_height 11
+static unsigned char FreeMono_Bold10_hfs_bits[] = {
+  0x00, 0x03, 0x02, 0x0E, 0x16, 0x12, 0x12, 0x1B, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Hfs_width 9
+#define FreeMono_Bold10_Hfs_height 11
+static unsigned char FreeMono_Bold10_Hfs_bits[] = {
+   0x00, 0x00, 0x00, 0x00, 0x33, 0x00, 0x12, 0x00, 0x1e, 0x00, 0x12, 0x00,
+   0x12, 0x00, 0x33, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_ifs_width 8
+#define FreeMono_Bold10_ifs_height 11
+static unsigned char FreeMono_Bold10_ifs_bits[] = {
+  0x00, 0x04, 0x00, 0x06, 0x04, 0x04, 0x04, 0x1F, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Ifs_width 8
+#define FreeMono_Bold10_Ifs_height 11
+static unsigned char FreeMono_Bold10_Ifs_bits[] = {
+  0x00, 0x00, 0x1F, 0x04, 0x04, 0x04, 0x04, 0x1F, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_jfs_width 7
+#define FreeMono_Bold10_jfs_height 11
+static unsigned char FreeMono_Bold10_jfs_bits[] = {
+  0x00, 0x04, 0x00, 0x0F, 0x08, 0x08, 0x08, 0x08, 0x08, 0x07, 0x00, };
+#define FreeMono_Bold10_Jfs_width 8
+#define FreeMono_Bold10_Jfs_height 11
+static unsigned char FreeMono_Bold10_Jfs_bits[] = {
+  0x00, 0x00, 0x1E, 0x08, 0x08, 0x09, 0x09, 0x07, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_kfs_width 8
+#define FreeMono_Bold10_kfs_height 11
+static unsigned char FreeMono_Bold10_kfs_bits[] = {
+  0x00, 0x03, 0x02, 0x1A, 0x0E, 0x06, 0x0A, 0x1B, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Kfs_width 8
+#define FreeMono_Bold10_Kfs_height 11
+static unsigned char FreeMono_Bold10_Kfs_bits[] = {
+  0x00, 0x00, 0x1F, 0x0A, 0x06, 0x0E, 0x1A, 0x17, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_lfs_width 8
+#define FreeMono_Bold10_lfs_height 11
+static unsigned char FreeMono_Bold10_lfs_bits[] = {
+  0x00, 0x06, 0x04, 0x04, 0x04, 0x04, 0x04, 0x1F, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Lfs_width 8
+#define FreeMono_Bold10_Lfs_height 11
+static unsigned char FreeMono_Bold10_Lfs_bits[] = {
+  0x00, 0x00, 0x0E, 0x04, 0x04, 0x24, 0x24, 0x3E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_mfs_width 9
+#define FreeMono_Bold10_mfs_height 11
+static unsigned char FreeMono_Bold10_mfs_bits[] = {
+   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3f, 0x00, 0x2a, 0x00, 0x2a, 0x00,
+   0x2a, 0x00, 0x2b, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Mfs_width 9
+#define FreeMono_Bold10_Mfs_height 11
+static unsigned char FreeMono_Bold10_Mfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0x36, 0x00, 0x36, 0x00, 0x2A, 0x00, 
+  0x2A, 0x00, 0x36, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_nfs_width 8
+#define FreeMono_Bold10_nfs_height 11
+static unsigned char FreeMono_Bold10_nfs_bits[] = {
+  0x00, 0x00, 0x00, 0x0F, 0x16, 0x12, 0x12, 0x1B, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Nfs_width 9
+#define FreeMono_Bold10_Nfs_height 11
+static unsigned char FreeMono_Bold10_Nfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x33, 0x00, 0x26, 0x00, 0x2E, 0x00, 0x3A, 0x00, 
+  0x32, 0x00, 0x26, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ofs_width 8
+#define FreeMono_Bold10_ofs_height 11
+static unsigned char FreeMono_Bold10_ofs_bits[] = {
+  0x00, 0x00, 0x00, 0x0E, 0x1B, 0x11, 0x1B, 0x0E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Ofs_width 9
+#define FreeMono_Bold10_Ofs_height 11
+static unsigned char FreeMono_Bold10_Ofs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x1E, 0x00, 0x33, 0x00, 0x21, 0x00, 0x21, 0x00, 
+  0x3B, 0x00, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_pfs_width 9
+#define FreeMono_Bold10_pfs_height 11
+static unsigned char FreeMono_Bold10_pfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x36, 0x00, 0x22, 0x00, 
+  0x32, 0x00, 0x1E, 0x00, 0x02, 0x00, 0x07, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Pfs_width 8
+#define FreeMono_Bold10_Pfs_height 11
+static unsigned char FreeMono_Bold10_Pfs_bits[] = {
+  0x00, 0x00, 0x0F, 0x12, 0x12, 0x1E, 0x02, 0x07, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_qfs_width 8
+#define FreeMono_Bold10_qfs_height 11
+static unsigned char FreeMono_Bold10_qfs_bits[] = {
+  0x00, 0x00, 0x00, 0x3E, 0x1B, 0x11, 0x19, 0x1E, 0x10, 0x38, 0x00, };
+#define FreeMono_Bold10_Qfs_width 9
+#define FreeMono_Bold10_Qfs_height 11
+static unsigned char FreeMono_Bold10_Qfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x3B, 0x00, 0x21, 0x00, 0x21, 0x00, 
+  0x37, 0x00, 0x0E, 0x00, 0x3E, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_rfs_width 7
+#define FreeMono_Bold10_rfs_height 11
+static unsigned char FreeMono_Bold10_rfs_bits[] = {
+  0x00, 0x00, 0x00, 0x3E, 0x0C, 0x04, 0x04, 0x1E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Rfs_width 8
+#define FreeMono_Bold10_Rfs_height 11
+static unsigned char FreeMono_Bold10_Rfs_bits[] = {
+  0x00, 0x00, 0x0F, 0x12, 0x1E, 0x0A, 0x12, 0x37, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_sfs_width 7
+#define FreeMono_Bold10_sfs_height 11
+static unsigned char FreeMono_Bold10_sfs_bits[] = {
+   0x00, 0x00, 0x00, 0x1f, 0x03, 0x1f, 0x18, 0x1f, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Sfs_width 8
+#define FreeMono_Bold10_Sfs_height 11
+static unsigned char FreeMono_Bold10_Sfs_bits[] = {
+  0x00, 0x00, 0x1E, 0x1B, 0x03, 0x1C, 0x19, 0x0F, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_tfs_width 8
+#define FreeMono_Bold10_tfs_height 11
+static unsigned char FreeMono_Bold10_tfs_bits[] = {
+  0x00, 0x00, 0x04, 0x1E, 0x04, 0x04, 0x04, 0x3C, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Tfs_width 8
+#define FreeMono_Bold10_Tfs_height 11
+static unsigned char FreeMono_Bold10_Tfs_bits[] = {
+  0x00, 0x00, 0x1F, 0x15, 0x15, 0x04, 0x04, 0x0E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_ufs_width 9
+#define FreeMono_Bold10_ufs_height 11
+static unsigned char FreeMono_Bold10_ufs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1B, 0x00, 0x12, 0x00, 0x12, 0x00, 
+  0x12, 0x00, 0x3E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Ufs_width 9
+#define FreeMono_Bold10_Ufs_height 11
+static unsigned char FreeMono_Bold10_Ufs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x36, 0x00, 0x22, 0x00, 0x22, 0x00, 0x22, 0x00, 
+  0x22, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_vfs_width 9
+#define FreeMono_Bold10_vfs_height 11
+static unsigned char FreeMono_Bold10_vfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x37, 0x00, 0x12, 0x00, 0x16, 0x00, 
+  0x1C, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_Vfs_width 8
+#define FreeMono_Bold10_Vfs_height 11
+static unsigned char FreeMono_Bold10_Vfs_bits[] = {
+  0x00, 0x00, 0x76, 0x26, 0x24, 0x1C, 0x18, 0x18, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_wfs_width 9
+#define FreeMono_Bold10_wfs_height 11
+static unsigned char FreeMono_Bold10_wfs_bits[] = {
+   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x63, 0x00, 0x2a, 0x00, 0x2a, 0x00,
+   0x3e, 0x00, 0x36, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Wfs_width 9
+#define FreeMono_Bold10_Wfs_height 11
+static unsigned char FreeMono_Bold10_Wfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x77, 0x00, 0x2A, 0x00, 0x3E, 0x00, 0x3E, 0x00, 
+  0x36, 0x00, 0x36, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_xfs_width 8
+#define FreeMono_Bold10_xfs_height 11
+static unsigned char FreeMono_Bold10_xfs_bits[] = {
+   0x00, 0x00, 0x00, 0x33, 0x1e, 0x0c, 0x1e, 0x33, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Xfs_width 9
+#define FreeMono_Bold10_Xfs_height 11
+static unsigned char FreeMono_Bold10_Xfs_bits[] = {
+  0x00, 0x00, 0x00, 0x00, 0x66, 0x00, 0x24, 0x00, 0x18, 0x00, 0x3C, 0x00, 
+  0x24, 0x00, 0x66, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_yfs_width 8
+#define FreeMono_Bold10_yfs_height 11
+static unsigned char FreeMono_Bold10_yfs_bits[] = {
+  0x00, 0x00, 0x00, 0x3B, 0x12, 0x1A, 0x0E, 0x0C, 0x04, 0x0F, 0x00, };
+#define FreeMono_Bold10_Yfs_width 8
+#define FreeMono_Bold10_Yfs_height 11
+static unsigned char FreeMono_Bold10_Yfs_bits[] = {
+  0x00, 0x00, 0x3B, 0x1A, 0x0E, 0x04, 0x04, 0x1E, 0x00, 0x00, 0x00, };
+#define FreeMono_Bold10_zfs_width 7
+#define FreeMono_Bold10_zfs_height 11
+static unsigned char FreeMono_Bold10_zfs_bits[] = {
+   0x00, 0x00, 0x00, 0x1f, 0x0c, 0x06, 0x13, 0x1f, 0x00, 0x00, 0x00 };
+#define FreeMono_Bold10_Zfs_width 7
+#define FreeMono_Bold10_Zfs_height 11
+static unsigned char FreeMono_Bold10_Zfs_bits[] = {
+  0x00, 0x00, 0x0F, 0x05, 0x06, 0x02, 0x09, 0x0F, 0x00, 0x00, 0x00, };
+
+/* 
+ * array of glyphs 
+static glyph FreeMono_Bold10_glyphsArray[] = {
+   {FreeMono_Bold10_ascii_33fs_width, FreeMono_Bold10_ascii_33fs_height, FreeMono_Bold10_ascii_33fs_bits},
+   {FreeMono_Bold10_ascii_34fs_width, FreeMono_Bold10_ascii_34fs_height, FreeMono_Bold10_ascii_34fs_bits},
+   {FreeMono_Bold10_ascii_35fs_width, FreeMono_Bold10_ascii_35fs_height, FreeMono_Bold10_ascii_35fs_bits},
+   {FreeMono_Bold10_ascii_36fs_width, FreeMono_Bold10_ascii_36fs_height, FreeMono_Bold10_ascii_36fs_bits},
+   {FreeMono_Bold10_ascii_37fs_width, FreeMono_Bold10_ascii_37fs_height, FreeMono_Bold10_ascii_37fs_bits},
+   {FreeMono_Bold10_ascii_38fs_width, FreeMono_Bold10_ascii_38fs_height, FreeMono_Bold10_ascii_38fs_bits},
+   {FreeMono_Bold10_ascii_39fs_width, FreeMono_Bold10_ascii_39fs_height, FreeMono_Bold10_ascii_39fs_bits},
+   {FreeMono_Bold10_ascii_40fs_width, FreeMono_Bold10_ascii_40fs_height, FreeMono_Bold10_ascii_40fs_bits},
+   {FreeMono_Bold10_ascii_41fs_width, FreeMono_Bold10_ascii_41fs_height, FreeMono_Bold10_ascii_41fs_bits},
+   {FreeMono_Bold10_ascii_42fs_width, FreeMono_Bold10_ascii_42fs_height, FreeMono_Bold10_ascii_42fs_bits},
+   {FreeMono_Bold10_ascii_43fs_width, FreeMono_Bold10_ascii_43fs_height, FreeMono_Bold10_ascii_43fs_bits},
+   {FreeMono_Bold10_ascii_44fs_width, FreeMono_Bold10_ascii_44fs_height, FreeMono_Bold10_ascii_44fs_bits},
+   {FreeMono_Bold10_ascii_45fs_width, FreeMono_Bold10_ascii_45fs_height, FreeMono_Bold10_ascii_45fs_bits},
+   {FreeMono_Bold10_ascii_46fs_width, FreeMono_Bold10_ascii_46fs_height, FreeMono_Bold10_ascii_46fs_bits},
+   {FreeMono_Bold10_ascii_47fs_width, FreeMono_Bold10_ascii_47fs_height, FreeMono_Bold10_ascii_47fs_bits},
+   {FreeMono_Bold10_0fs_width, FreeMono_Bold10_0fs_height, FreeMono_Bold10_0fs_bits},
+   {FreeMono_Bold10_1fs_width, FreeMono_Bold10_1fs_height, FreeMono_Bold10_1fs_bits},
+   {FreeMono_Bold10_2fs_width, FreeMono_Bold10_2fs_height, FreeMono_Bold10_2fs_bits},
+   {FreeMono_Bold10_3fs_width, FreeMono_Bold10_3fs_height, FreeMono_Bold10_3fs_bits},
+   {FreeMono_Bold10_4fs_width, FreeMono_Bold10_4fs_height, FreeMono_Bold10_4fs_bits},
+   {FreeMono_Bold10_5fs_width, FreeMono_Bold10_5fs_height, FreeMono_Bold10_5fs_bits},
+   {FreeMono_Bold10_6fs_width, FreeMono_Bold10_6fs_height, FreeMono_Bold10_6fs_bits},
+   {FreeMono_Bold10_7fs_width, FreeMono_Bold10_7fs_height, FreeMono_Bold10_7fs_bits},
+   {FreeMono_Bold10_8fs_width, FreeMono_Bold10_8fs_height, FreeMono_Bold10_8fs_bits},
+   {FreeMono_Bold10_9fs_width, FreeMono_Bold10_9fs_height, FreeMono_Bold10_9fs_bits},
+   {FreeMono_Bold10_ascii_58fs_width, FreeMono_Bold10_ascii_58fs_height, FreeMono_Bold10_ascii_58fs_bits},
+   {FreeMono_Bold10_ascii_59fs_width, FreeMono_Bold10_ascii_59fs_height, FreeMono_Bold10_ascii_59fs_bits},
+   {FreeMono_Bold10_ascii_60fs_width, FreeMono_Bold10_ascii_60fs_height, FreeMono_Bold10_ascii_60fs_bits},
+   {FreeMono_Bold10_ascii_61fs_width, FreeMono_Bold10_ascii_61fs_height, FreeMono_Bold10_ascii_61fs_bits},
+   {FreeMono_Bold10_ascii_62fs_width, FreeMono_Bold10_ascii_62fs_height, FreeMono_Bold10_ascii_62fs_bits},
+   {FreeMono_Bold10_ascii_63fs_width, FreeMono_Bold10_ascii_63fs_height, FreeMono_Bold10_ascii_63fs_bits},
+   {FreeMono_Bold10_ascii_64fs_width, FreeMono_Bold10_ascii_64fs_height, FreeMono_Bold10_ascii_64fs_bits},
+   {FreeMono_Bold10_Afs_width, FreeMono_Bold10_Afs_height, FreeMono_Bold10_Afs_bits},
+   {FreeMono_Bold10_Bfs_width, FreeMono_Bold10_Bfs_height, FreeMono_Bold10_Bfs_bits},
+   {FreeMono_Bold10_Cfs_width, FreeMono_Bold10_Cfs_height, FreeMono_Bold10_Cfs_bits},
+   {FreeMono_Bold10_Dfs_width, FreeMono_Bold10_Dfs_height, FreeMono_Bold10_Dfs_bits},
+   {FreeMono_Bold10_Efs_width, FreeMono_Bold10_Efs_height, FreeMono_Bold10_Efs_bits},
+   {FreeMono_Bold10_Ffs_width, FreeMono_Bold10_Ffs_height, FreeMono_Bold10_Ffs_bits},
+   {FreeMono_Bold10_Gfs_width, FreeMono_Bold10_Gfs_height, FreeMono_Bold10_Gfs_bits},
+   {FreeMono_Bold10_Hfs_width, FreeMono_Bold10_Hfs_height, FreeMono_Bold10_Hfs_bits},
+   {FreeMono_Bold10_Ifs_width, FreeMono_Bold10_Ifs_height, FreeMono_Bold10_Ifs_bits},
+   {FreeMono_Bold10_Jfs_width, FreeMono_Bold10_Jfs_height, FreeMono_Bold10_Jfs_bits},
+   {FreeMono_Bold10_Kfs_width, FreeMono_Bold10_Kfs_height, FreeMono_Bold10_Kfs_bits},
+   {FreeMono_Bold10_Lfs_width, FreeMono_Bold10_Lfs_height, FreeMono_Bold10_Lfs_bits},
+   {FreeMono_Bold10_Mfs_width, FreeMono_Bold10_Mfs_height, FreeMono_Bold10_Mfs_bits},
+   {FreeMono_Bold10_Nfs_width, FreeMono_Bold10_Nfs_height, FreeMono_Bold10_Nfs_bits},
+   {FreeMono_Bold10_Ofs_width, FreeMono_Bold10_Ofs_height, FreeMono_Bold10_Ofs_bits},
+   {FreeMono_Bold10_Pfs_width, FreeMono_Bold10_Pfs_height, FreeMono_Bold10_Pfs_bits},
+   {FreeMono_Bold10_Qfs_width, FreeMono_Bold10_Qfs_height, FreeMono_Bold10_Qfs_bits},
+   {FreeMono_Bold10_Rfs_width, FreeMono_Bold10_Rfs_height, FreeMono_Bold10_Rfs_bits},
+   {FreeMono_Bold10_Sfs_width, FreeMono_Bold10_Sfs_height, FreeMono_Bold10_Sfs_bits},
+   {FreeMono_Bold10_Tfs_width, FreeMono_Bold10_Tfs_height, FreeMono_Bold10_Tfs_bits},
+   {FreeMono_Bold10_Ufs_width, FreeMono_Bold10_Ufs_height, FreeMono_Bold10_Ufs_bits},
+   {FreeMono_Bold10_Vfs_width, FreeMono_Bold10_Vfs_height, FreeMono_Bold10_Vfs_bits},
+   {FreeMono_Bold10_Wfs_width, FreeMono_Bold10_Wfs_height, FreeMono_Bold10_Wfs_bits},
+   {FreeMono_Bold10_Xfs_width, FreeMono_Bold10_Xfs_height, FreeMono_Bold10_Xfs_bits},
+   {FreeMono_Bold10_Yfs_width, FreeMono_Bold10_Yfs_height, FreeMono_Bold10_Yfs_bits},
+   {FreeMono_Bold10_Zfs_width, FreeMono_Bold10_Zfs_height, FreeMono_Bold10_Zfs_bits},
+   {FreeMono_Bold10_ascii_91fs_width, FreeMono_Bold10_ascii_91fs_height, FreeMono_Bold10_ascii_91fs_bits},
+   {FreeMono_Bold10_ascii_92fs_width, FreeMono_Bold10_ascii_92fs_height, FreeMono_Bold10_ascii_92fs_bits},
+   {FreeMono_Bold10_ascii_93fs_width, FreeMono_Bold10_ascii_93fs_height, FreeMono_Bold10_ascii_93fs_bits},
+   {FreeMono_Bold10_ascii_94fs_width, FreeMono_Bold10_ascii_94fs_height, FreeMono_Bold10_ascii_94fs_bits},
+   {FreeMono_Bold10_ascii_95fs_width, FreeMono_Bold10_ascii_95fs_height, FreeMono_Bold10_ascii_95fs_bits},
+   {FreeMono_Bold10_ascii_96fs_width, FreeMono_Bold10_ascii_96fs_height, FreeMono_Bold10_ascii_96fs_bits},
+   {FreeMono_Bold10_afs_width, FreeMono_Bold10_afs_height, FreeMono_Bold10_afs_bits},
+   {FreeMono_Bold10_bfs_width, FreeMono_Bold10_bfs_height, FreeMono_Bold10_bfs_bits},
+   {FreeMono_Bold10_cfs_width, FreeMono_Bold10_cfs_height, FreeMono_Bold10_cfs_bits},
+   {FreeMono_Bold10_dfs_width, FreeMono_Bold10_dfs_height, FreeMono_Bold10_dfs_bits},
+   {FreeMono_Bold10_efs_width, FreeMono_Bold10_efs_height, FreeMono_Bold10_efs_bits},
+   {FreeMono_Bold10_ffs_width, FreeMono_Bold10_ffs_height, FreeMono_Bold10_ffs_bits},
+   {FreeMono_Bold10_gfs_width, FreeMono_Bold10_gfs_height, FreeMono_Bold10_gfs_bits},
+   {FreeMono_Bold10_hfs_width, FreeMono_Bold10_hfs_height, FreeMono_Bold10_hfs_bits},
+   {FreeMono_Bold10_ifs_width, FreeMono_Bold10_ifs_height, FreeMono_Bold10_ifs_bits},
+   {FreeMono_Bold10_jfs_width, FreeMono_Bold10_jfs_height, FreeMono_Bold10_jfs_bits},
+   {FreeMono_Bold10_kfs_width, FreeMono_Bold10_kfs_height, FreeMono_Bold10_kfs_bits},
+   {FreeMono_Bold10_lfs_width, FreeMono_Bold10_lfs_height, FreeMono_Bold10_lfs_bits},
+   {FreeMono_Bold10_mfs_width, FreeMono_Bold10_mfs_height, FreeMono_Bold10_mfs_bits},
+   {FreeMono_Bold10_nfs_width, FreeMono_Bold10_nfs_height, FreeMono_Bold10_nfs_bits},
+   {FreeMono_Bold10_ofs_width, FreeMono_Bold10_ofs_height, FreeMono_Bold10_ofs_bits},
+   {FreeMono_Bold10_pfs_width, FreeMono_Bold10_pfs_height, FreeMono_Bold10_pfs_bits},
+   {FreeMono_Bold10_qfs_width, FreeMono_Bold10_qfs_height, FreeMono_Bold10_qfs_bits},
+   {FreeMono_Bold10_rfs_width, FreeMono_Bold10_rfs_height, FreeMono_Bold10_rfs_bits},
+   {FreeMono_Bold10_sfs_width, FreeMono_Bold10_sfs_height, FreeMono_Bold10_sfs_bits},
+   {FreeMono_Bold10_tfs_width, FreeMono_Bold10_tfs_height, FreeMono_Bold10_tfs_bits},
+   {FreeMono_Bold10_ufs_width, FreeMono_Bold10_ufs_height, FreeMono_Bold10_ufs_bits},
+   {FreeMono_Bold10_vfs_width, FreeMono_Bold10_vfs_height, FreeMono_Bold10_vfs_bits},
+   {FreeMono_Bold10_wfs_width, FreeMono_Bold10_wfs_height, FreeMono_Bold10_wfs_bits},
+   {FreeMono_Bold10_xfs_width, FreeMono_Bold10_xfs_height, FreeMono_Bold10_xfs_bits},
+   {FreeMono_Bold10_yfs_width, FreeMono_Bold10_yfs_height, FreeMono_Bold10_yfs_bits},
+   {FreeMono_Bold10_zfs_width, FreeMono_Bold10_zfs_height, FreeMono_Bold10_zfs_bits},
+   {FreeMono_Bold10_ascii_123fs_width, FreeMono_Bold10_ascii_123fs_height, FreeMono_Bold10_ascii_123fs_bits},
+   {FreeMono_Bold10_ascii_124fs_width, FreeMono_Bold10_ascii_124fs_height, FreeMono_Bold10_ascii_124fs_bits},
+   {FreeMono_Bold10_ascii_125fs_width, FreeMono_Bold10_ascii_125fs_height, FreeMono_Bold10_ascii_125fs_bits},
+   {FreeMono_Bold10_ascii_126fs_width, FreeMono_Bold10_ascii_126fs_height, FreeMono_Bold10_ascii_126fs_bits} 
+};
+*/
+
